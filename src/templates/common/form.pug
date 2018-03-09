@@ -1,0 +1,11 @@
+block form
+  form.form(action="#")
+    .form__title Напишите нам скорее
+    textarea.form__msg(name="message" placeholder="Сообщение" required)
+    input.form__input(name="firstname" type="text" placeholder="Ваше имя" required)
+    input.form__input(name="lastname" type="text" placeholder="Ваша фамилия" required)
+    .form__capture-img
+      img(src="./assets/images/contacts/capture.jpg" alt="capture picture")
+    input.form__capture-input(name="captureinput" type="text" placeholder="Символы с картинки" required)
+    button(type="submit") Отправить
+

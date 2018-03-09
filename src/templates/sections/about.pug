@@ -1,0 +1,27 @@
+block about
+  header.about__header
+    .container
+      .logo
+        svg.logo__pic
+          use(xlink:href="./assets/icons/svg/symbols.svg#logo")
+      block navigation
+        - var position = 'header'
+        include ../common/navigation
+  figure.about__slider.slider
+    ul.slider__pics
+      li.slider__pic.slider__pic_1.slider__pic_active
+      li.slider__pic.slider__pic_2
+      li.slider__pic.slider__pic_3
+      li.slider__pic.slider__pic_4
+      li.slider__pic.slider__pic_5
+    .tagline Кофе для тех, кому важно, что в его чашке
+    block slider-dots
+      include ../common/slider-dots.pug
+  article.about__article.article
+    h3 Кофе, кофе, кофе!
+    p.
+      Yellow Vibe Coffee — сеть кофеен, работающая с зерном класса speciality. 
+      Для нас важна высота произрастания кофейных деревьев, тип почвы и уход за ней, 
+      вовремя собранные ягоды и правильное хранение зерен. Мы работаем с лучшими 
+      поставщиками и сами обжариваем зерна.
+    a.article__link(href="#") Подробнее

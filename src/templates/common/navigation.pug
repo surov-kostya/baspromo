@@ -1,0 +1,30 @@
+block navigation
+  nav.nav
+    case position
+    
+      when 'header'  
+        ul.nav__menu.menu
+          li.menu__item.menu__item_active
+            a.menu__link(href="#") О нас
+          li.menu__item 
+            a.menu__link(href="#") Магазин
+          li.menu__item 
+            a.menu__link(href="#") Блог
+          li.menu__item 
+            a.menu__link(href="#") Адреса кофеен
+
+      when 'footer'
+        ul.nav__menu.menu
+          li.menu__item 
+            a.menu__link(href="#") Адреса кофеен
+          li.menu__item 
+            a.menu__link(href="#") Магазин
+          li.menu__item 
+            a.menu__link(href="#") Контакты
+          li.menu__item
+            a.menu__link(href="#") Блог
+          li.menu__item 
+            a.menu__link(href="#") Работа у нас
+          li.menu__item
+            a.menu__link(href="#") О нас
+      
