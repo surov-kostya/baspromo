@@ -2,19 +2,29 @@ block content
   header.content__header
     .container
       .content__tagline Кофе - наша страсть
-  article.content__article
-  figure.content__figure.slider
-    ul.content__slider
-      li.content__slide
-        img(src="", alt="")
-      li.content__slide
-        img(src="", alt="")
-      li.content__slide
-        img(src="", alt="")
-      li.content__slide
-        img(src="", alt="")
-      li.content__slide
-        img(src="", alt="")
+      
+  .container
+    article.content__article
+      p.
+        Мы работаем только с зерном класса speciality. 
+        Высота произрастания кофейных деревьев, тип почвы 
+        и уход за ней, вовремя собранные ягоды и правильное 
+        хранение зерен — все детали важны, когда речь идет 
+        о настоящем кофе, — таком, вкусом которого можно 
+        действительно наслаждаться, а не глотнуть и тут же забыть.
+    figure.content__figure.slider(id="carouselExampleIndicators" class="carousel slide" data-ride="carousel")
 
-    block slider-dots
-      include ../common/slider-dots.pug
+      block slider-dots
+        include ../common/slider-dots.pug
+
+      ul.content__slider(class="carousel-inner")
+        li.content__slide(class="carousel-item active")
+          img.content__img(src="./assets/images/content/workers.jpg", alt="slide" class="d-block w-100")
+        li.content__slide(class="carousel-item")
+          img.content__img(src="./assets/images/content/workers.jpg", alt="slide" class="d-block w-100")
+        li.content__slide(class="carousel-item")
+          img.content__img(src="./assets/images/content/workers.jpg", alt="slide" class="d-block w-100")
+        li.content__slide(class="carousel-item")
+          img.content__img(src="./assets/images/content/workers.jpg", alt="slide" class="d-block w-100")
+        li.content__slide(class="carousel-item")
+          img.content__img(src="./assets/images/content/workers.jpg", alt="slide" class="d-block w-100")

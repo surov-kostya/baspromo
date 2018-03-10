@@ -1,15 +1,15 @@
 block footer
   .container
-    .footer__navigation
-      block navigation
-        - var position = 'footer'
-        include ../common/navigation
-    .footer__socials
-      block socials
-        include ../common/socials
-    .footer__copyright 2016 © Yellow Vibe Coffee
-    .footer__contacts
-      a.footer__phone(href="tel:+74955448677") +7 495 544 86 77 
-      a.footer__email(href="mailto:info@yellowvibecoffee.ru") info@yellowvibecoffee.ru
-
-
+    .row.footer__first-row
+      .footer__navigation.col
+        block navigation
+          - var position = 'footer'
+          include ../common/navigation
+      .footer__socials.col
+        block socials
+          include ../common/socials
+    .row.footer__second-row
+      .footer__copyright.col 2016 © Yellow Vibe Coffee
+      .footer__contacts.col
+        a.footer__phone(href="tel:+74955448677") +7 495 544 86 77 
+        a.footer__email(href="mailto:info@yellowvibecoffee.ru") info@yellowvibecoffee.ru

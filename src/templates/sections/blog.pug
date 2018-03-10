@@ -3,7 +3,7 @@ block blog
     ul.news
       li.news__item
         .news__image
-          img.news__pic(src="", alt="")
+          img.news__pic(src="./assets/images/blog/news-1.jpg", alt="news-pic")
         article.news__text
           .blog__section Новости
           .news__title У нас появилась выпечка
@@ -14,11 +14,14 @@ block blog
             хранение зерен — все детали важны, когда речь идет 
             о настоящем кофе, — таком, вкусом которого можно 
             действительно наслаждаться, а не глотнуть и тут же забыть. 
-          a.news__link(href="#") Подробнее
+          a.news__link.article__link(href="#") Подробнее
+
       
-      li.news__item
+      li.news__item.news__item_second
         .blog__section Новости
         .news__title У нас появилась выпечка
+        .news__image
+          img.news__pic(src="./assets/images/blog/news-2.jpg", alt="news-pic")
         .news__article.
           Мы работаем только с зерном класса speciality. Высота 
           произрастания кофейных деревьев, тип почвы и уход за ней, 
@@ -33,4 +36,4 @@ block blog
           для разговора. Мы обжариваем наши зерна сами, используем 
           среднюю (венскую) степень обжарки, потому что она успевает 
           раскрыть аромат зерен и при этом не добавляет горечи.
-        a.news__link(href="#") Подробнее
+        a.news__link.article__link(href="#") Подробнее

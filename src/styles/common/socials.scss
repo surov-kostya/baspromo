@@ -1,3 +1,19 @@
+.socials{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socials__net{
+  margin-left: 20px;
+}
+
 .socials__link{
   font-family: 'WebSymbolsLiga';
+  font-size: 40px;
+  color: #000;
+  transition: .3s;
+
+  &:hover{
+    color: #9b9b9b;
+  }
 }

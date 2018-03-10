@@ -1,34 +1,17 @@
-@mixin font-h1{
-    text-transform: uppercase;
-    font-family: 'bernier_regular';
-    text-transform: uppercase;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 63px;
-    color:$color-gray-dark;
-    position: relative;
-}
-
-@mixin font-h2{
-    text-transform: uppercase;
-    font-family: 'bernier_regular';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 35px;
-    color:$color-gray;
-}
-
-@mixin font-reg{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color:rgba($color-gray, .8);
-}
-
-@mixin bg-image ($img-url){
-    background-image: url($img-url);
-    background-position: center top;
-    background-size: cover;
+@mixin inputs{
+    color: #000;
+    font-family: 'ApercuPro-Mono';
+    font-size: 14px;
+  
+    &::placeholder{
+      color: #000;
+      font-family: 'ApercuPro-Mono';
+      font-size: 14px;
+    }
+  
+    &:focus{
+      outline: none;
+    }
 }
 
 @mixin dis-fle-cen{

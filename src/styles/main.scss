@@ -2,5 +2,19 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss";
+
 @import "base";
-@import "./common/socials";
+
+@import "./config/mixins.scss";
+
+@import "./common/socials.scss";
+@import "./common/navigation.scss";
+@import "./common/slider-dots.scss";
+@import "./common/form.scss";
+
+@import "./sections/about.scss";
+@import "./sections/shop.scss";
+@import "./sections/footer.scss";
+@import "./sections/content.scss";
+@import "./sections/blog.scss";
+@import "./sections/contacts.scss";

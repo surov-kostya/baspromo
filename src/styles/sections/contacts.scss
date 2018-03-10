@@ -1,0 +1,74 @@
+.contacts__map{
+  height:560px;
+  background-image: url('../images/contacts/map.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.cafes{
+  align-items: stretch;
+}
+
+.cafe{
+  display:flex;
+  align-items: stretch;
+}
+
+.coordinates{
+  display:flex;
+  flex-flow: column;
+  justify-content: space-between;
+  font-family: 'ApercuPro-Mono';
+  font-size: 14px;
+
+  li{
+    margin-bottom: 25px;
+  }
+
+  &__name{
+    font-family: 'ApercuPro';
+    font-size: 24px;
+  }
+
+  &__worktime pre{
+    font-family: 'ApercuPro-Mono';
+    font-size: 14px;
+  }
+  
+  a{
+    color: #000;
+  }
+  
+}
+
+.contacts__inetshop{
+  margin: 190px 0 130px 0;
+}
+
+.inetshop__title{
+  font-family: 'ApercuPro';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inetshop__link{
+  font-family: 'ApercuPro-Mono';
+  font-size: 14px;
+  color: #000;
+
+  &:hover{
+    color: #000;
+  }
+}
+
+.contacts__form{
+  position: relative;
+}
+
+.contacts__marka{
+  position:absolute;
+  top:-30px;
+  right:-65px;
+}

@@ -1,46 +1,54 @@
 block contacts
   .container
     .contacts__map.yandexmaps
-    ul.contacts__cafes.cafes
+    ul.contacts__cafes.cafes.row
 
-      li.cafe
+      li.cafe.col-3
         ul.cafe__coordinates.coordinates
           li.coordinates__name Курская
           li.coordinates__street БК Арма, Нижний Сусальный пер. 5С9
-          li.coordinates__worktime Пн-Пт 08:00-21:00 Сб-Вс 09:00-21:00
+          li.coordinates__worktime 
+            pre.
+              Пн-Пт 08:00-21:00
+              Сб-Вс 09:00-21:00
           li.coordinates__phone
             a.coordinates__tellink(href="tel:+74953565577") +7 495 356 55 77
           li.coordinates__onmap
             a.coordinates__link(href="#") Показать на карте
 
-      li.cafe
+      li.cafe.col-3
         ul.cafe__coordinates.coordinates
           li.coordinates__name Улица 1905 года
           li.coordinates__street Улица 1905 года
-          li.coordinates__worktime Пн-Пт 08:00-21:00 Сб-Вс 09:00-21:00
+          li.coordinates__worktime 
+            pre.
+              Пн-Пт 08:00-21:00
+              Сб-Вс 09:00-21:00
           li.coordinates__phone 
             a.coordinates__tellink(href="tel:+74953565577") +7 495 356 55 77
           li.coordinates__onmap
             a.coordinates__link(href="#") Показать на карте
 
-    ul.contacts__inetshop.inetshop
-      li.inetshop__desc
+    ul.contacts__inetshop.inetshop.row
+      li.inetshop__desc.col-3.offset-3
         h2.inetshop__title Интернет магазин
         a.inetshop__link(href="mailto:shop@yellowvicoffee.ru") shop@yellowvicoffee.ru 
-      li.inetshop__desc
+      li.inetshop__desc.col-3
         h2.inetshop__title Интернет магазин
         a.inetshop__link(href="mailto:shop@yellowvicoffee.ru") shop@yellowvicoffee.ru
-      li.inetshop__desc
+      .w-100
+      li.inetshop__desc.col-3.offset-3
         h2.inetshop__title Интернет магазин
         a.inetshop__link(href="mailto:shop@yellowvicoffee.ru") shop@yellowvicoffee.ru
-      li.inetshop__desc
+      li.inetshop__desc.col-3
         h2.inetshop__title Интернет магазин
         a.inetshop__link(href="mailto:shop@yellowvicoffee.ru") shop@yellowvicoffee.ru
 
-    .contacts__form
+    .contacts__form.col-8.offset-2
       img.contacts__marka(src="./assets/images/contacts/marka.png")
       block form
         include ../common/form
+
 
         
 

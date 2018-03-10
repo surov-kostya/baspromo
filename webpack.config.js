@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+// const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
  const config = {
     output: {

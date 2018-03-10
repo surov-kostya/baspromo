@@ -1,0 +1,59 @@
+.shop__goods{
+  margin-bottom: 60px;
+}
+
+.goods__item{
+  margin-bottom: 60px;
+
+  &:hover .desc{
+    background-color: #f4e6d4;
+  }
+}
+
+.desc{
+  font-family: 'ApercuPro';
+  color:#000;
+  border: 2px solid #f4e6d4;
+  border-top: none;
+  width: 290px;
+
+  &__shop{
+    font-size: 12px;
+  }
+  
+  &__sort{
+    font-size: 18px;
+  }
+  
+  &__counrty{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+}
+
+.goods__image{
+  width: 290px;
+  height: 360px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.instagram__item{
+  margin: 10px 0;
+}
+
+.instagram__name{
+  height: 35px;
+  width: 455px;
+  margin-bottom: 40px;
+}
+
+.instagram__photo{
+  height: 140px;
+  width: 140px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,23 +1,23 @@
 block shop
   .container
-    ul.shop__goods.goods
-      li.goods__item
-        .goods__image
-          img.goods__pic(src="./assets/images/shop/coffee.jpg", alt="coffee picture")
+    ul.shop__goods.goods.row
+      li.goods__item.col
+        .goods__image(style="background-image: url('./assets/images/shop/coffee.jpg')")
+          img.goods__pic.visually-hidden(src="./assets/images/shop/coffee.jpg", alt="coffee picture")
         .goods__desc.desc
           .desc__shop Магазин
           .desc__sort Моносорт в зернах
           .desc__counrty Maragogype Nicaragua
-      li.goods__item
-        .goods__image
-          img.goods__pic(src="./assets/images/shop/coffee.jpg", alt="coffee picture")
+      li.goods__item.col
+        .goods__image(style="background-image: url('./assets/images/shop/coffee.jpg')")
+          img.goods__pic.visually-hidden(src="./assets/images/shop/coffee.jpg", alt="coffee picture")
         .goods__desc.desc
           .desc__shop Магазин
           .desc__sort Моносорт в зернах
           .desc__counrty Maragogype Nicaragua
-      li.goods__item
-        .goods__image
-          img.goods__pic(src="./assets/images/shop/coffee.jpg", alt="coffee picture")
+      li.goods__item.col
+        .goods__image(style="background-image: url('./assets/images/shop/coffee.jpg')")
+          img.goods__pic.visually-hidden(src="./assets/images/shop/coffee.jpg", alt="coffee picture")
         .goods__desc.desc
           .desc__shop Магазин
           .desc__sort Моносорт в зернах
@@ -26,29 +26,42 @@ block shop
       .instagram__title
         svg.instagram__name
           use(xlink:href="./assets/icons/svg/symbols.svg#yellowvibecoffee")
-      ul.instagram__list
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_1
-          img.instagram__pic.visually-hidden.instagram__pic_1(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_2
-          img.instagram__pic.visually-hidden.instagram__pic_2(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_3
-          img.instagram__pic.visually-hidden.instagram__pic_3(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_4
-          img.instagram__pic.visually-hidden.instagram__pic_4(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_5
-          img.instagram__pic.visually-hidden.instagram__pic_5(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_6
-          img.instagram__pic.visually-hidden.instagram__pic_6(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_7
-          img.instagram__pic.visually-hidden.instagram__pic_7(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_8
-          img.instagram__pic.visually-hidden.instagram__pic_8(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_9
-          img.instagram__pic.visually-hidden.instagram__pic_9(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_10
-          img.instagram__pic.visually-hidden.instagram__pic_10(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_11
-          img.instagram__pic.visually-hidden.instagram__pic_11(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
-        li.instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')").instagram__photo_12
-          img.instagram__pic.visually-hidden.instagram__pic_12(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+      ul.instagram__list.row
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        .w-100
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
+        li.instagram__item.col
+          .instagram__photo(style="background-image: url('./assets/images/shop/instagram.jpg')")
+          img.instagram__pic.visually-hidden(src="./assets/images/shop/instagram.jpg", alt="instagram-photo")
       

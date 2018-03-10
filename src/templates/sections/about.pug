@@ -1,22 +1,31 @@
 block about
-  header.about__header
-    .container
+  .container
+    header.about__header
       .logo
         svg.logo__pic
           use(xlink:href="./assets/icons/svg/symbols.svg#logo")
       block navigation
         - var position = 'header'
         include ../common/navigation
-  figure.about__slider.slider
-    ul.slider__pics
-      li.slider__pic.slider__pic_1.slider__pic_active
-      li.slider__pic.slider__pic_2
-      li.slider__pic.slider__pic_3
-      li.slider__pic.slider__pic_4
-      li.slider__pic.slider__pic_5
-    .tagline Кофе для тех, кому важно, что в его чашке
+  figure.about__slider.slider(id="carouselExampleIndicators" class="carousel slide" data-ride="carousel")
+
     block slider-dots
       include ../common/slider-dots.pug
+
+    ul.slider__pics(class="carousel-inner")
+      li.slider__pic(class="carousel-item active")
+        img.slider__img(class="d-block w-100" src="./assets/images/about/slide.jpg", alt="slide")
+      li.slider__pic(class="carousel-item")
+        img.slider__img(class="d-block w-100" src="./assets/images/about/slide.jpg", alt="slide")
+      li.slider__pic(class="carousel-item")
+        img.slider__img(class="d-block w-100" src="./assets/images/about/slide.jpg", alt="slide")
+      li.slider__pic(class="carousel-item")
+        img.slider__img(class="d-block w-100" src="./assets/images/about/slide.jpg", alt="slide")
+      li.slider__pic(class="carousel-item")
+        img.slider__img(class="d-block w-100" src="./assets/images/about/slide.jpg", alt="slide")
+
+    .slider__tagline Кофе для тех, кому важно, что в его чашке
+
   article.about__article.article
     h3 Кофе, кофе, кофе!
     p.

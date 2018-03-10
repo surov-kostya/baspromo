@@ -1,0 +1,31 @@
+.nav{
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.nav__menu{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu__item{
+  margin-left: 25px;
+}
+
+.manu_footer{
+  .menu__item{
+    margin-left: 0;
+  }
+}
+
+.menu__link{
+  color: #000;
+  font-family: 'ApercuPro';
+  transition: .3s;
+
+  &:hover{
+    color: #9b9b9b;
+    text-decoration: none;
+  }
+}

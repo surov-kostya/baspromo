@@ -1,0 +1,32 @@
+.footer{
+  border-top: 2px solid #000;
+  margin-top: 110px;
+  padding-top: 40px;
+  margin-bottom: 200px;
+}
+
+.footer__first-row{
+  margin-bottom: 70px;
+  align-items: flex-start;
+}
+
+.footer__second-row{
+  align-items: flex-end;
+  font-family: 'ApercuPro-Mono';
+}
+
+.footer__contacts{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  font-size: 18px;
+  color: #000;
+
+  a{
+    color: #000;
+  }
+}
+
+.footer__copyright{
+  font-size: 14px;
+}

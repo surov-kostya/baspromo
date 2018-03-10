@@ -1,0 +1,35 @@
+.content__header{
+  background-image: url('../images/content/coffee-hat.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 340px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.content__tagline{
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  width: 320px;
+  color: #fff;
+  font-family: 'ApercuPro';
+  font-size: 48px;
+  line-height: 50px;
+}
+
+.content__article{
+  margin: 0 auto;
+  max-width: 715px;
+  p{
+    color: #000;
+    font-family: 'ApercuPro';
+    font-size: 24px;
+  }  
+}
+
+.content__figure{
+  margin-top: 90px;
+  margin-bottom: 210px;
+}
